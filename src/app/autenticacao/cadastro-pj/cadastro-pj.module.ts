@@ -14,8 +14,9 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { 
   CadastrarPjComponent,
   CadastroPjComponent
-  
 } from './components';
+
+import { SharedModule } from '../../shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import {
     MatButtonModule,
     MatListModule,
     MatIconModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    SharedModule
   ]
 })
 export class CadastroPjModule { }
